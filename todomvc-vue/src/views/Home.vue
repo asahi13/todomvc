@@ -4,7 +4,7 @@
       <b-navbar-brand href="#">Todo MVC Vue sample</b-navbar-brand>
     </b-navbar>
     <b-container>
-      <h1 class="my-3">Todo</h1>
+      <h1 class="my-3">Todos</h1>
       <b-form class="my-3" @submit.prevent="dispatchAddTodo">
         <b-input-group>
           <b-form-input name="title" v-model="newTodo" />
